@@ -1,0 +1,60 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-image: linear-gradient(45deg, #69f2fb 6.25%, #f9c747 6.25%, #f9c747 12.5%, #ee5e5e 12.5%, #ee5e5e 18.75%, #bb51f8 18.75%, #bb51f8 25%, #69f2fb 25%, #69f2fb 31.25%, #f9c747 31.25%, #f9c747 37.5%, #ee5e5e 37.5%, #ee5e5e 43.75%, #bb51f8 43.75%, #bb51f8 50%, #69f2fb 50%, #69f2fb 56.25%, #f9c747 56.25%, #f9c747 62.5%, #ee5e5e 62.5%, #ee5e5e 68.75%, #bb51f8 68.75%, #bb51f8 75%, #69f2fb 75%, #69f2fb 81.25%, #f9c747 81.25%, #f9c747 87.5%, #ee5e5e 87.5%, #ee5e5e 93.75%, #bb51f8 93.75%, #bb51f8 100%);
+}
+
+h1, h2 {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 100;
+}
+
+h1 {
+  font-size: 8vw;
+  text-align: center;
+  padding-top: 20rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.num {
+  font-size: 3rem;
+  background-color: orange;
+  display: inline;
+  border-radius: 50%;
+  padding: 0.5rem 1rem;
+  position: absolute;
+  top: 34%;
+  right: 31%;
+}
+
+.fa-plus {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.social-wrapper {
+  position: absolute;
+  right: 3rem;
+  bottom: 1rem;
+}
+
+.social-wrapper > * {
+  margin-right: 0.7rem;
+}
+
+/*# sourceMappingURL=main.css.map */
